@@ -1,9 +1,14 @@
+
+const saludar=()=>{
+    console.log('Saludos a todos');
+}
 const colores = ['Rojo', 'amarillo', 'verde', 'Azul'];
 const planetas = ['Venus', 'Martes', 'Tierra', 'Mercurio'];
 
 module.exports = {
     colores : colores,
-    planetas : planetas
+    planetas : planetas,
+    saludar : saludar
 };
 
 

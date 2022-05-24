@@ -1,13 +1,9 @@
-const colores = require('./colores.js');
-
+const coloresEjemplo = require('./colores.js');
 console.log('Variable');
-console.log(colores);
-
+console.log(coloresEjemplo);
 console.log('-----------');
 console.log('Recorrido');
 console.log('-----------');
-colores.forEach(
-    color => {
-        console.log(color);
-    }
+coloresEjemplo.forEach(
+    color => console.log(color)
 );

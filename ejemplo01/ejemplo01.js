@@ -1,25 +1,17 @@
-const {colores, planetas} = require('./universo.js');
-
-console.log('Variable');
-console.log(colores);
+const {colores, planetas, saludar} = require('./universo.js');
 
 console.log('-----------');
 console.log('Recorrido');
 console.log('-----------');
 colores.forEach(
-    color => {
-        console.log(color);
-    }
+    color => console.log(`El color es ${color}`)
 );
-
-console.log('Variable');
-console.log(planetas);
 
 console.log('-----------');
 console.log('Recorrido planetas');
 console.log('-----------');
 planetas.forEach(
-    planeta => {
-        console.log(planeta);
-    }
+    planeta => console.log(`El planeta es ${planeta} `)
 );
+
+saludar();
